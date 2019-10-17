@@ -1,0 +1,161 @@
+html, body{
+  height: 100%;
+  width: 100%
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.main-container{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+.home-css{
+  display: block;
+  grid-template-columns: 100px 200px;
+  position: fixed;
+  text-align:center;
+  width: 75%;
+  height: 50%;
+  margin: auto;
+  background-color: black;
+  bottom: 5px;;
+  border-radius:25px;
+  background: #403A3E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BE5869, #403A3E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BE5869, #403A3E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.main-div-avatar{
+  border-radius: 0; 
+}
+.home-flex{
+  display: block;
+  width:100%;
+  height:100%;
+  
+}
+.home-avatar{
+  border-top: dotted;
+  display: block;
+  border-radius: 50%;
+  position: center;
+  margin-left:auto;
+  margin-right: auto;
+}
+.home-css div{
+  display: flex;
+  position: relative;
+  align-items: bottom;
+}
+.mainContainer{
+  width:100%;
+  height: 100%; 
+}
+
+.home-flex{
+position: absolute;
+bottom: 30px;
+width: auto;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+padding: 0 1%;
+
+}
+.home-flex div {
+  border: 0.5px solid black;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background: #d9a7c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.home-flex div.paragraph {
+  text-align:center;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left:5px;
+  border: 0;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-top:15px;
+  width: auto;
+}
+.home-flex div.faPics{
+  padding-top: 10px;
+}
+.home-flex div.InternalPar{
+  border-top: dotted;
+  padding: 3px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 0;
+  opacity: 0;
+  margin-top: 5px;
+  background-color: transparent;
+}
+.home-flex i {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  flex: 1;
+  margin: 0 1%;
+
+}
+.home-flex p{
+  font-family: "Poppins", sans-serif;
+  font-size:15px;
+  padding: 4px;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
